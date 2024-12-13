@@ -6,8 +6,7 @@ on:
         description: The name of deployable artfact files
         require: false
         default: dist
-        type: string
-        
+        type: string 
 jobs: 
   deploy:
     runs-on: ubuntu-latest
